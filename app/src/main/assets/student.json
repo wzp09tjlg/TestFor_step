@@ -1,0 +1,14 @@
+{
+   "name": "zhangsan",
+    "age": 26,
+"married": false,
+   "nums": [
+           "1234567890",
+           "0987654321"
+           ],
+"addressBean": {
+                "province": "hunan",
+                "country": "longshan",
+                "town": "wuyahe"
+                }
+}

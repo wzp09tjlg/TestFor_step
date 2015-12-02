@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/step_btn_set_focus"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/setFoucs"
+        />
+
+    <RelativeLayout
+        android:id="@+id/step_layout_focusLeft"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:layout_below="@id/step_btn_set_focus"
+        android:layout_marginTop="@dimen/dimen_200dp"
+        android:layout_marginLeft="@dimen/dimen_200dp"
+        >
+        <ImageView
+            android:layout_width="@dimen/dimen_300dp"
+            android:layout_height="@dimen/dimen_300dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_girl"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/step_layout_focusRight"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:layout_below="@id/step_btn_set_focus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dimen_200dp"
+        android:layout_marginRight="@dimen/dimen_200dp"
+        >
+        <ImageView
+            android:layout_width="@dimen/dimen_300dp"
+            android:layout_height="@dimen/dimen_300dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_girl"/>
+    </RelativeLayout>
+
+    <com.zhongxin.home.testfor_step.widget.ShadowView
+        android:id="@+id/step_img_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_title_focus"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_228dp"
+    android:layout_height="@dimen/dimen_316dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/item_animator_selector"
+    >
+    <ImageView
+        android:id="@+id/step_img_item_animator"
+        android:layout_width="@dimen/dimen_165dp"
+        android:layout_height="@dimen/dimen_165dp"
+        android:duplicateParentState="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/step_img_item_cover_animator"
+        android:layout_width="@dimen/dimen_165dp"
+        android:layout_height="@dimen/dimen_165dp"
+        android:duplicateParentState="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:visibility="visible"/>
+    <TextView
+        android:id="@+id/step_text_item_animator_name"
+        android:layout_width="@dimen/dimen_228dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_below="@+id/step_img_item_animator"
+        android:layout_marginTop="@dimen/dimen_60dp"
+        android:gravity="center"/>
+</RelativeLayout>

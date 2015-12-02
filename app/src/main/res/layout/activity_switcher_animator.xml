@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/step_btn_switcher"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/switcher"
+        />
+    <com.zhongxin.home.testfor_step.widget.gridview.VerticalGridView
+        android:id="@+id/step_grid_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_320dp"
+        android:layout_below="@+id/step_btn_switcher"
+        app:focusOutEnd="true"
+        app:focusOutFront="true"
+        app:numberOfColumns="7"></com.zhongxin.home.testfor_step.widget.gridview.VerticalGridView>
+
+    <ImageSwitcher
+        android:id="@+id/step_switcher"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:layout_below="@+id/step_grid_animator"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_centerHorizontal="true">
+        </ImageSwitcher>
+</RelativeLayout>

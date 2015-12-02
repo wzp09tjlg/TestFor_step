@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+   <com.zhongxin.home.testfor_step.widget.MotionGroup
+       android:id="@+id/step_groupview"
+       android:layout_width="@dimen/dimen_600dp"
+       android:layout_height="@dimen/dimen_600dp"
+       android:layout_centerHorizontal="true"
+       android:background="#0f8">
+    <com.zhongxin.home.testfor_step.widget.MotionView
+        android:id="@+id/step_view"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_300dp"
+        android:layout_below="@+id/step_groupview"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:text="this is a motion test."
+        android:background="#f08"/>
+   </com.zhongxin.home.testfor_step.widget.MotionGroup>
+</RelativeLayout>

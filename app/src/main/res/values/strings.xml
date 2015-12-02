@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">TestFor_step</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--主页的string参数-->
+    <string name="handler">handler</string>
+    <string name="threadPool">threadPool</string>
+    <string name="Reflect">Reflect</string>
+    <string name="volley">volley</string>
+    <string name="okhttp">okhttp</string>
+    <string name="io">io</string>
+    <string name="json">json</string>
+    <string name="xml">xml</string>
+    <string name="genericity">genericity</string>
+    <string name="itemAnimator">itemAnimator</string>
+    <string name="focus">focus</string>
+    <!--Handler的参数-->
+    <!--ThreadPool的参数-->
+    <string name="cacheThreadPool">cacheThreadPool</string>
+    <string name="fixedThreadPool">fixedThreadPool</string>
+    <string name="scheduleThreadPool">scheduleThreadPool</string>
+    <string name="singleThreadExecutor">singleThreadExecutor</string>
+    <string name="otherExecutor">otherExecutor</string>
+    <!--Reflect的参数-->
+    <string name="getProperty">getProperty</string>
+    <string name="getStaticProperty">getStaticProperty</string>
+    <string name="invokeMethod">invokeMethod</string>
+    <string name="invokeStaticMethod">involeStaticMethod</string>
+    <string name="getInstance">getInstance</string>
+    <string name="isInstance">isInstance</string>
+    <!--volley的参数-->
+    <string name="getJson">getJson</string>
+    <string name="getImg">getImg</string>
+    <!--okhttp的参数-->
+    <string name="sync">sync</string>
+    <string name="async">async</string>
+    <!--IO的参数-->
+    <string name="fileInputStream">fileInputStream</string>
+    <string name="fileOutputStream">fileOutputStream</string>
+    <string name="bufferedInputStream">bufferedInputStream</string>
+    <string name="bufferedOutputStream">bufferedOutputStream</string>
+    <string name="dataInputStream">dataInputStream</string>
+    <string name="dataOutputStream">dataOutputStream</string>
+    <string name="inputStreamReader">inputStreamReader</string>
+    <string name="outputStreamWriter">outputStreamWriter</string>
+    <string name="bufferedReader">bufferedReader</string>
+    <string name="bufferedWriter">bufferedWriter</string>
+    <!--json的参数-->
+    <string name="construct_jsonObject">construct_JsonObject</string>
+    <string name="destruct_jsonObject">destruct_JsonObject</string>
+    <string name="construct_jsonStringer">construct_JsonStringer</string>
+    <string name="destruct_jsonStringer">destruct_JsonStringer</string>
+    <!--xml的参数-->
+    <string name="Sax_encode">Sax_encode</string>
+    <string name="Sax_uncode">Sax_uncode</string>
+    <string name="Pull_encode">Pull_encode</string>
+    <string name="Pull_uncode">Pull_uncode</string>
+    <!--genericity的参数-->
+    <string name="genericity_class">genericty_class</string>
+    <string name="genericity_interface">genericity_interface</string>
+    <string name="genericity_method">genericity_method</string>
+    <string name="genericity_up_bound">genericity_up_bound</string>
+    <string name="genericity_down_bound">genericity_down_bound</string>
+    <!--itemAnimator的参数-->
+    <string name="itemAnimator_add">itemAnimator_add</string>
+    <string name="itemAnimator_delete">itemAnimator_delete</string>
+    <!--focus的参数-->
+    <string name="setFoucs">setFoucs</string>
+    <!--switcher的参数-->
+    <string name="switcher">switcher</string>
+    <!--viewStub的参数-->
+    <string name="viewStub">viewStub</string>
+    <!--viewPager 的参数-->
+    <string name="viewPager">viewPager</string>
+</resources>

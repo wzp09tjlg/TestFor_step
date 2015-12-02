@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/step_edt_str"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/step_text_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/step_edt_str"
+        android:layout_marginRight="@dimen/dimen_5dp"
+        android:text="Input String:"
+        />
+    <Button
+        android:id="@+id/step_btn_EncryptMd5"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/step_edt_str"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Md5 Encrypt"
+        />
+    <Button
+        android:id="@+id/step_btn_unEncryptMd5"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/step_btn_EncryptMd5"
+        android:gravity="center"
+        android:text="unEncryptMd5"
+        />
+    <Button
+        android:id="@+id/step_btn_RsaEncrypt"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/step_btn_unEncryptMd5"
+        android:gravity="center"
+        android:text="RsaEncrypt"
+        />
+    <Button
+        android:id="@+id/step_btn_RsaUnEncrypt"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/step_btn_RsaEncrypt"
+        android:gravity="center"
+        android:text="RsaUncrypt"
+        />
+</RelativeLayout>
